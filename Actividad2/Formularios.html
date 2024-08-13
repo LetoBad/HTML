@@ -10,38 +10,62 @@
 <body>
     <div>
         <center>
-    <h2>Registrese</h2>
-    <form method="post">
-        Nome: <input type="text" name="Nombre">
-        <br>
-        <br>
-        Email: <input type="email" name="Email">
-        <br>
-        <br>
-        Contraseña: <input type="password" name="Pass">
-        <br>
-        <br>
-        Direccion: <input type="text" name="Direccion">
-        <br>
-        <br>
-        Fecha de Nacimiento: <input type="date" name="Nacimientos">
-        <br>
-        <br>
-        Genero: <input type="radio" name="Genero"> M <input type="radio" name="Genero"> F <input type="radio" name="Genero"> Outro
-        <br>
-        <br>
-        Intereses:<br> <input type="checkbox" name="Series">Filmes<br>
-      <input type="checkbox" name="Filmes">Series<br>
-      <input type="checkbox" name="Livros">Livros<br>
-        <br>
-        <br>
-        Imagem : <input type="file" name="Imagem">
-        <br>
-        <br>
-       <button type="submit"> Enviar </button>
-    </form>
-</center>    
-</div>
+            <h2>Registrese</h2>
+            <form method="post">
+                <Fieldset>
+                    <legend> Informaciones </legend>
+                <label for="Nombre"> Nome:</label>
+                <input type="text" name="Nombre">
+                
+                <br>
+                <br>
+                <label for="Email"> Email:</label>
+                <input type="email" name="Email">
+                <br>
+                <br>
+                <label for="Pass"> Contraseña:</label>
+                <input type="password" name="Pass">
+                <br>
+            </Fieldset>
+                <br>
+                <br>
+                <label for="Direccion"> Direccion:</label>
+                <input type="text" name="Direccion">
+                <br>
+                <br>
+                <input type="date" name="Nacimientos">
+                <br>
+                <br>
+                Genero: <input type="radio" name="Genero"> M <input type="radio" name="Genero"> F <input type="radio"
+                    name="Genero"> Outro
+                <br>
+                <br>
+                Intereses:<br> <input type="checkbox" name="Series">Filmes<br>
+                <input type="checkbox" name="Filmes">Series<br>
+                <input type="checkbox" name="Livros">Livros<br>
+                <br>
+                <br>
+                Imagem : <input type="file" name="Imagem">
+                <br>
+                <br>
+                Ciudad :<br>
+                <select name="cidade" multiple="multiple">
+                    <option value="">-- Seleccione --</option>
+                    <option value="rivera">Rivera</option>
+                    <option value="liv">Santana do livramento</option>
+                    <option value="minas">Minas</option>
+                    <option value="bage">Bage</option>
+                </select>
+                <br>
+                <br>
+                Sobre mim:<br> 
+                <textarea cols="10" rows="5" name="Sobre"></textarea>
+                <br>
+                <br>
+                <button type="submit"> Enviar </button>
+            </form>
+        </center>
+    </div>
 
 
 </body>
