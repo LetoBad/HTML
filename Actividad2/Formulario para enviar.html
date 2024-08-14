@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario elaborado</title>
+</head>
+<body>
+            <h2>Formulario</h2>
+            <form method="post">
+                <Fieldset>
+                    <legend> Datos Personales </legend>
+                    <label for="Nombre"> Nome:</label>
+                    <input type="text" name="Nombre">
+                    <br>
+                    <br>
+                    <label for="Direccion"> Direccion:</label>
+                    <input type="text" name="Direccion">
+                    <br>
+                    <br>
+                    <label for="Ciudad"> Ciudad:</label>
+                    <input type="text" name="Ciudad">
+                    <br>
+                    <br>
+                    Ciudad :<br>
+                    <select name="cidade" multiple="multiple">
+                        <option value="">-- Seleccione --</option>
+                        <option value="rivera">Rivera</option>
+                        <option value="liv">Santana do livramento</option>
+                        <option value="minas">Minas</option>
+                        <option value="bage">Bage</option>
+                        <br>
+                    </select>
+                </Fieldset>
+                <br>
+                <fieldset>
+                    <legend>Datos profesionales</legend>
+                    Naturaleza de cargo: <br> <input type="radio" name="cargo"> Gerenica <input type="radio"
+                        name="cargo"> Financiero <input type="radio" name="cargo"> Recepion <input type="radio"
+                        name="cargo"> Administracion <input type="radio" name="cargo"> Juridico
+                    <br>
+                    <br>
+                    Area de intereses:<br> <input type="checkbox" name="computacion">Computacion
+                    <input type="checkbox" name="Biologia">Biologia
+                    <input type="checkbox" name="Medio ambiente">Medio Ambiente
+                    <input type="checkbox" name="Ingieneria">ingieneria
+                    <input type="checkbox" name="Historia">Historia
+                    <br>
+                    <br>
+                    MiniCurriculum:
+                    <textarea cols="50" rows="5" name="Sobre"></textarea>
+                    <br>
+                    <br>
+                    <button type="submit"> Enviar </button>
+                    <button type="clean"> Limpiar </button>
+                </fieldset>
+            </form>
+</body>
+</html>
