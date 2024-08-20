@@ -1,0 +1,51 @@
+
+body{
+    background-color: rgb(37, 35, 35);
+    background-image : -webkit-image-set("https://files.porsche.com/filestore/image/multimedia/none/992-gt3-rs-modelimage-sideshot/model/cfbb8ed3-1a15-11ed-80f5-005056bbdc38/porsche-model.png" );
+    background-size: cover;
+    opacity: 90;
+    
+    
+}
+#diferente1{
+    color: azure;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 2px solid gold;
+    border-radius: 22%;
+}
+
+#diferente2     {
+    color: rgb(255, 72, 0);
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 12px 12px 20px #131212;
+}
+
+
+#p1{
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    text-shadow: 4px 4px 8px #131212;
+}
+#p2{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    text-shadow: 4px 4px 8px #131212;
+}
+#p3{
+    text-align: right;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue; 
+    text-shadow: 4px 4px 8px #131212;
+}
+div {
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr  1fr 1fr;
+}
