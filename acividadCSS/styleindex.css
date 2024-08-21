@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0C1821;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh; 
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+    color: #405e79;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.9em;
+    color: #8996b4;
+    text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre las imágenes */
+    margin-top: 20px;
+}
+
+.card, .card2, .card3 {
+    width: 300px;
+    aspect-ratio: 1/1.3;
+    position: relative;
+}
+
+.card .imagen1, .card2 .imagen2, .card3 .imagen3 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.card .imagen1 img, .card2 .imagen2 img, .card3 .imagen3 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(0) brightness(1);
+    scale: 1.2;
+    transition: scale 2s ease-in-out, filter 1s ease-in-out;
+}
+
+.card:hover .imagen1 img, .card2:hover .imagen2 img, .card3:hover .imagen3 img {
+    filter: grayscale(1) brightness(0.7);
+    scale: 1;
+}
+
+.textbox1, .textbox2, .textbox3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #549770;
+}
+
+.textbox1 .name1, .textbox2 .name2, .textbox3 .name3 {
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+}
+
+.name1 span, .name2 span, .name3 span {
+    display: block;
+    transition: transform 0.5s ease;
+    transform: translateY(100%);
+}
+
+.card:hover .textbox1 span, .card2:hover .textbox2 span, .card3:hover .textbox3 span {
+    transform: translateY(0%);
+}
+
+.textbox1::after, .textbox2::after, .textbox3::after {
+    position: absolute;
+    content: "";
+    top: 52%;
+    left: 50%;
+    width: 102%;
+    height: 3px;
+    transform: translate(-50%, -50%) scaleX(0);
+    transform-origin: left;
+    transition: 0.5s ease;
+    background-color: cyan;
+}
+
+.card:hover .textbox1::after, .card2:hover .textbox2::after, .card3:hover .textbox3::after {
+    transform: translate(-50%, -50%) scaleX(1);
+}
