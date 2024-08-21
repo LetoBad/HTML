@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #0C1821;
+    background-image: url("./imgs/back.jpeg");
 }
 
 
@@ -10,7 +11,7 @@ header {
     text-align: center;
     font-size: 3em;
     margin-top: 20px;
-    color: #405e79;
+    color: #2c7dc5;   
     text-decoration: underline;
 }
 
@@ -33,14 +34,31 @@ nav ul li a {
 }
 
 label{
-    color: #8996b4;
+    color: #becff6;
     font-size: 1.6em;
 }
 #reg{
-    color: #405e79;
+    color: #55adfa;
     font-size: 2.5em;
 }
 #leg{
     color: #75b2e7;
     font-size: 2.0em;
+}
+
+input{
+    color: #e5ebf9;
+
+}
+
+.box{
+    background-color: #536797;
+    border-radius: 7px;
+
+}
+
+.boton {
+    color:#1a8aec ;
+    background-color: #536797;
+    padding: 20px;
 }

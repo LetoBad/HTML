@@ -13,7 +13,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 1.9em;
-    color: #8996b4;
+    color: #2c7dc5;
     text-decoration: underline;
 }
 
@@ -23,6 +23,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #051215;
+    background-image: url("./imgs/back.jpeg");
 }
 
 .container {

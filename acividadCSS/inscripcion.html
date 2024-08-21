@@ -18,39 +18,41 @@
                 <Fieldset>
                     <legend id="leg"> Informaciones personales </legend>
                 <label for="Nombre"> Nome:</label>
-                <input type="text" name="Nombre">
+                <input id="Nombre" class="box" type="text" name="Nombre">
                 <br>
                 <br>
                 <label for="Email"> Email:</label>
-                <input type="email" name="Email">
+                <input id="Email" class="box" type="email" name="Email">
                 <br>
                 <br>
                 <label for="Direccion"> Direccion:</label>
-                <input type="text" name="Direccion">
+                <input id="Direccion" class="box" type="text" name="Direccion">
             </Fieldset>
                 <br>
                 <br>
-                <input type="date" name="Nacimientos">
+                <label for="Fn"> Fecha de Nacimiento:</label>
+                <input id="Fn" class="box" type="date" name="Nacimientos">
                 <br>
                 <br>
                 <label for="Genero"> Genero:</label>
-                <input type="radio" name="Genero"> M <input type="radio" name="Genero"> F <input type="radio"
-                    name="Genero"> Outro
+                <input type="radio" name="Genero"> <label> M</label> <input type="radio" name="Genero"> <label> F</label> <input type="radio"
+                    name="Genero"> <label> Outro</label>
                 <br>
                 <br>
                 <label for="Imagem"> Imagem:</label>
-                <input type="file" name="Imagem">
+                <input id="Imagem" type="file" name="Imagem">
                 <br>
                 <br>
                 <label for="cidade"> Cidade:</label>
-                <select name="cidade" multiple="multiple">
+                <select id="cidade" class="box" name="cidade" multiple="multiple">
                     <option value="">-- Seleccione --</option>
                     <option value="rivera">Rivera</option>
                     <option value="liv">Santana do livramento</option>
                 </select>
                 <br>
                 <br>
-                <button type="submit"> Enviar </button>
+                <button class="boton"
+                type="submit"> Enviar </button>
             </form>
             <br>
             <nav>      
