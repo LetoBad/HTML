@@ -1,0 +1,41 @@
+.contenedor{
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin-block-start: -2.7em;
+}
+#modelo {
+    text-align: center;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 0;
+    color: rgb(247, 251, 250);
+    font-size: 32px;
+    margin-block-start: -3.2em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-shadow: 4px 4px 8px #131212;
+}
+.tablaplano{
+    display: flex;
+    align-items: flex-start;
+    gap: 650px;
+    margin: 20px;
+}
+
+.tmotor{
+    text-align: center;
+    height: 500px;
+    width: 500px;
+}
+.detalle{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+.resp{
+    font-size: 21px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}

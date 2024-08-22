@@ -1,0 +1,10 @@
+.texto{
+    background-image: url(./imgs/backgroundtrees.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 150px;
+    text-align: center;
+    justify-content: flex-start;
+}
