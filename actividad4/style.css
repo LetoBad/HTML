@@ -1,5 +1,4 @@
 .body{
-    display: grid;
     text-align: center;
 }
 .barra{
@@ -30,6 +29,8 @@ ul {
 ul li {
     display: inline;
     margin: 0 15px;
+    color: gold;
+
 }
 
 .imagenDos{
@@ -95,4 +96,7 @@ ul li {
 }
 .texpatrocinadores{
     text-align: center;
+}
+.pat{
+    height: 100px;
 }
