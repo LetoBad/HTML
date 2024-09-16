@@ -1,0 +1,98 @@
+.body{
+    display: grid;
+    text-align: center;
+}
+.barra{
+    display: grid;
+    grid-template-columns: 1fr 1 fr;
+}
+.noticiaimg{
+    margin-top: 20px;
+    height: 40px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.textobarra{
+    width: 900px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.imagenDos{
+    display: grid;
+    text-align: center;
+    background-image: url(./img/noticia.jpg);
+    height:600px ;
+    width: 863px;
+}
+.leao{
+    background-color: black;
+    color: gold;
+}
+.Ultimo{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ultimojogo{
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.leaologo{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.resultado{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.boca{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.logoboca{
+    height: 150px;
+}
+.logo2{
+    height: 150px;
+}
+.imagarena{
+    align-self: center;
+    text-align: center;
+}
+.logoarena{
+    text-align: center;
+    width: 790px;
+}
+.imagenespatrocinadores{
+
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(6 , 1fr);
+}
+.texpatrocinadores{
+    text-align: center;
+}
