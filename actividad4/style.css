@@ -39,6 +39,8 @@ ul li {
     background-image: url(./img/noticia.jpg);
     height:600px ;
     width: 863px;
+    margin: auto;
+    margin-bottom: 50px;
 }
 .leao{
     background-color: black;
@@ -48,6 +50,7 @@ ul li {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 50px;
 }
 .ultimojogo{
     text-align: center;
@@ -81,15 +84,16 @@ ul li {
     height: 150px;
 }
 .imagarena{
-    align-self: center;
     text-align: center;
+    
 }
 .logoarena{
     text-align: center;
-    width: 790px;
+    width: 800px;
+    margin-bottom: 50px;
 }
 .imagenespatrocinadores{
-
+margin-bottom: 50px;
     display: grid;
     text-align: center;
     grid-template-columns: repeat(6 , 1fr);
@@ -99,4 +103,30 @@ ul li {
 }
 .pat{
     height: 100px;
+}
+.vermelha{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.proxjogo{
+ display: grid;
+ grid-template-columns: 1fr;
+ text-align: center;
+}
+.textProxjogo{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.htres{
+    text-align: center;
+}
+.imgeq{
+    height: 100px;
+}
+.proxjogos{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
 }
